@@ -1,0 +1,73 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size:initial;
+}
+
+main {
+    min-height: 100vh;
+}
+
+#outer-box {
+    width: 25rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 3%;
+}
+
+#order-summary {
+    padding: 2rem;
+}
+
+#text {
+    text-align: center;
+}
+
+#text > p {
+    color: hsl(224, 23%, 55%);
+}
+
+
+#plan {
+    justify-content: space-between;
+    font-size: 0.9rem;
+    padding: 1rem;
+    background-color: hsl(227, 64%, 96%);
+    border-radius: 3%;
+}
+
+#plan-price-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#plan-price-text > * {
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 3%;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#payment-button {
+    color: hsl(227, 64%, 96%);
+    background-color: hsl(245, 75%, 52%);
+    padding: 1rem;
+    border-radius: 5%;
+    border: none;
+}
